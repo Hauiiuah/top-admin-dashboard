@@ -4,6 +4,7 @@
     box-sizing: border-box;
 
     --dashboard-color: #1992D4;
+    --dashboard-color-dark: #0d415e;
     /* border: 1px solid green; */
 }
 
@@ -74,6 +75,21 @@
     border: none;
 }
 
+.headerbutton:hover{
+    box-shadow: 5px 5px 5px 0px rgb(59, 59, 59);
+    background-color: var(--dashboard-color-dark);
+    transition: 1s;
+    
+    
+}
+
+.searchbar:focus{
+    border:2px solid #1992D4;
+}
+
+.searchbar:focus-visible{
+    outline: none;
+}
 .greeting{
     font-weight: 600;
 }
